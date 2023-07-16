@@ -1,0 +1,162 @@
+.container {
+    margin: 0 0 60px 60px;
+}
+.mayne_text h1{
+    color: #FFF;
+    font-family: Cardo;
+    font-size: 66px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 78px; /* 121.875% */
+    letter-spacing: 1.3px;
+}
+.mayne_text_1 p{
+    color: #FFF;
+    font-family: Cardo;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 171.429% */
+    letter-spacing: 1.2px;
+    text-transform: capitalize;
+}
+.mayne_text_1 hr{
+    width: 30px;
+    height: 3px;
+    margin-top: 16px;
+    background-color: #FFCA42;
+}
+.mayne_text_1{
+    display: flex;
+    gap: 8px;
+    padding-top: 15vh;
+}
+.mayne_text h4{
+    color: #B4C7E7;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.5px; 
+    margin-top: 20px;
+}
+.mayne_section{
+    background: #1B3764;
+    height: 90vh;
+}
+
+.mayne_buttons_1{
+    background: #FFCA42;
+    width: 180px;
+    height: 66px;
+    flex-shrink: 0;
+    color: #1B3764;
+    font-family: Cardo;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.5px; /* 150% */
+    letter-spacing: 0.57px;
+    text-transform: capitalize;
+    border: none;
+}
+
+.mayne_buttons{
+    margin-top: 40px;
+}
+.mayne_buttons_2{
+    background: #1B3764;
+    width: 145px;
+    margin-left: 50px;
+    height: 66px;
+    flex-shrink: 0;
+    color: white;
+    font-family: Cardo;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.5px; /* 150% */
+    letter-spacing: 0.57px;
+    text-transform: capitalize;
+    border: none;
+}
+.mayne_wrapper{
+    display: flex;
+}
+.mayne_img{
+    margin-left: 230px;
+    margin-top: 60px;
+}
+.mayne_img img{
+    width: 260px;
+    height: 360px;
+    margin: 3px;
+}
+.mayne_reid{
+    border-radius: 60px 0px 10px 0px;
+}
+.mayne_reid_2{
+    border-radius: 10px 0px 60px 0px;
+}
+.kristi{
+    border-radius: 0px 60px 0px 10px;
+}
+.kristi_2{
+    border-radius: 0px 10px 0px 60px;
+}
+.mayne_info h1{
+    font-size: 50px;
+    color: #FFCA42;
+}
+.mayne_info h2{
+    color: #FFF;
+    font-family: Cardo;
+    font-size: 24px;  
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px; /* 120% */
+    letter-spacing: 0.48px;
+}
+.mayne_info_1{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.mayne_info{
+    display: flex;
+    gap: 100px;
+    margin-top: 30px;
+}
+.mayne_info_2{
+    display: flex;
+    gap: 80px;
+    margin-left: 28px;
+}
+.mayne_info_2 h3{
+    color: #B4C7E7;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; 
+}
+.mayne_info_2 h2{
+    margin-left: 37px;
+    color: #B4C7E7;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; 
+}
+.mayne_info_3{
+    margin-top: 10px; 
+}
+.mayne_info_3 p{
+    margin-top: 6px;
+    color: #B4C7E7;
+    font-family: Inter;
+    font-size: 16px;
+}
+
+

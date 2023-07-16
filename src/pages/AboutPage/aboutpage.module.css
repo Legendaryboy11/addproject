@@ -1,0 +1,16 @@
+.about_section{
+    background: #F5F8FC;;
+}
+.kristina_info{
+    display: flex;
+}
+.kristina_img img{
+    width: 525px;
+    height: 620px;
+    flex-shrink: 0;
+}
+.kristina_fone img{
+    width: 500px;
+    height: 520px;
+    flex-shrink: 0;
+}

@@ -1,0 +1,61 @@
+.vector_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    gap: 30px;
+}
+.vector_1{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 60px;
+    gap: 5px;
+}
+.vector_1 h2{
+    color: white;
+}
+.vector_2{
+    display: flex;
+    margin-top: 30px ;    
+    gap: 6px;
+}
+
+header{
+    background: #1B3764;
+    height: 125px;
+}
+
+.head_wrapper {
+    gap:50px;
+    list-style: none;
+    display: flex;
+}
+.head_wrapper{
+    margin-left: 53vh;
+    margin-top: 30px;
+}
+
+.head_wrapper li a {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Inter';
+    text-decoration: none;
+}
+
+.vector_wrapper button{
+    margin-top: 30px;
+    background: #FFCA42;
+    width: 180px;
+    height: 66px;
+    flex-shrink: 0;
+    color: #1B3764;
+    font-family: Cardo;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.5px; /* 150% */
+    letter-spacing: 0.57px;
+    text-transform: capitalize;
+    border: none;
+}
+
