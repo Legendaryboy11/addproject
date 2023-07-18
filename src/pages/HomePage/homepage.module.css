@@ -42,7 +42,7 @@
 }
 .mayne_section{
     background: #1B3764;
-    height: 90vh;
+    height: 95vh;
 }
 
 .mayne_buttons_1{
@@ -93,16 +93,16 @@
     margin: 3px;
 }
 .mayne_reid{
-    border-radius: 60px 0px 10px 0px;
+    border-radius: 40px 0px 5px 0px;
 }
 .mayne_reid_2{
-    border-radius: 10px 0px 60px 0px;
+    border-radius: 5px 0px 40px 0px;
 }
 .kristi{
-    border-radius: 0px 60px 0px 10px;
+    border-radius: 0px 40px 0px 5px;
 }
 .kristi_2{
-    border-radius: 0px 10px 0px 60px;
+    border-radius: 0px 5px 0px 40px;
 }
 .mayne_info h1{
     font-size: 50px;
@@ -158,5 +158,112 @@
     font-family: Inter;
     font-size: 16px;
 }
+.section_order{
+    height: 80vh;
+    background: #FFF;
+}
+.order_h1{
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.order_wrapper{
+    margin-top: 100px;
+}
+.order{
+    display: flex;
+    justify-content: center;
+    gap: 10vh;
+    margin-top: 90px;
+}
+.order img{
+    width: 285px;
+    height: 382px;
+    flex-shrink: 0;
+    box-shadow: 0px 0px 10px ;
+}
+.order_h1 hr{
+    width: 50px;
+    height: 3px;
+    margin-top: 30px;
+    margin-left: 145px;
+    background: #FFCA42;
+    border: none;
+}
+.order_h1 h1{
+    color: #1B3764;
+    text-align: center;
+    font-family: Cardo;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50.4px; /* 120% */
+    text-transform: capitalize;
+}
+.info_left{
+    display: flex;
+    gap: 35px;
+}
+.order_info_0{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.order_info_1 h1{
+    color: #1B3764;
+    font-family: Cardo;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38.4px; /* 120% */
+    letter-spacing: 0.32px;
+}
+.order_info_1 p{
+    color: #FFCA42;
+    font-family: Inter;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;  
+}
+.order_info_2 p{
+    color: #969AA0;
+    font-family: Inter;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.5px;
+}
+.order_info_0 h2{
+    color: #1B3764;
+    font-family: Cardo;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px;
+}
+.order_info_0 h1{
+    font-size: 50px;
+    color: #FFCA42;
+}
+.order_right{
+    display: flex;
+    gap: 35px;
+}
+.order_button{
+    width: 206px;
+    height: 66px;
+    flex-shrink: 0;
+    background: #FFF;
+    border: 2px solid #FFCA42;
+    color: #1B3764;
+    font-family: Cardo;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.5px; /* 150% */
+    letter-spacing: 0.38px;
+}
 

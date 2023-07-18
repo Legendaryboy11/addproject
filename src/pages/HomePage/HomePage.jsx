@@ -25,6 +25,7 @@ const HomePage = () => {
                             
                             <p>Click on the picture of the book to learn more about the book</p>
                         </div>
+                    </div>    
 
                         <div className={styles.mayne_buttons}>
                             <button className={styles.mayne_buttons_1}>Order Today</button>
@@ -41,11 +42,7 @@ const HomePage = () => {
                             <h2>4.1/5 <br /> (6700 ratings)</h2>
                         </div>
                     </div>
-                    </div>
-                    <div>
-                        <h1>hello</h1>
-                    </div>
-                    <div className=' wow animate__animated animate__backInRight'>
+                    <div className='alihan wow animate__animated animate__backInRight'>
                         <div  className={styles.mayne_img}>
                             <a target="_blank" href="https://en.wikipedia.org/wiki/The_Headless_Horseman_(novel)"><img className={styles.mayne_reid} src="./images/reid.jpg" alt="" /> </a>                      
                             <a target="_blank" href="https://en.wikipedia.org/wiki/Murder_on_the_Orient_Express"><img className={styles.kristi} src="./images/kristi.jpg" alt="" /> </a> 
@@ -55,6 +52,49 @@ const HomePage = () => {
                         </div>  
                     </div>
                 </div>
+            </div>
+        </section>
+        <section className={styles.section_order}>
+            <div className={styles.container}>
+                <div className={styles.order_wrapper}>
+                    <div className='wow animate__animated animate__flipInX'>
+                    <div className={styles.order_h1}>
+                        <h1>The Authors' Book Collections <br /> <hr /> </h1>
+                    </div>
+                    </div>
+                    <div className={styles.order}>
+                    <div className={styles.order_left}>
+                        <div className={styles.info_left}>
+                            <img src="./images/komplect_img.jpg" alt="" />
+                            <div className={styles.order_info}>
+                            <div className={styles.order_info_1}>
+                                <h1>The Complete <br />Miss Marple Collection</h1>
+                                <p>$69.99 USD</p>
+                            </div>
+                            <div className={styles.order_info_2}>
+                                <p>Enjoy the complete collection featuring <br /> the Queen of Mystery's most  famous <br /> female sleuth, Miss Jane Marple.</p>
+                            </div> 
+                            <div className={styles.order_info_0}><h1>&bull;</h1> <h2>Books available</h2></div>
+                            <button className={styles.order_button}>Order Now</button> 
+                            </div>                    
+                        </div>
+                    </div>
+                    <div className={styles.order_right}>
+                            <img src="./images/collection_2.jpg" alt="" />
+                            <div className={styles.order_info}>
+                                <div className={styles.order_info_1}>
+                                    <h1>The Harlequin Tea <br /> Set and Other Stories</h1>
+                                    <p>$13.99 USD</p>
+                                </div>
+                                <div className={styles.order_info_2}>
+                                    <p>Hercule Poirot is joined by the mysterious <br /> problem solver Harley Quin in the pages <br /> of The Harlequin Tea Set and Other Stories</p>
+                                </div>
+                                <div className={styles.order_info_0}><h1>&bull;</h1> <h2>Books available</h2></div>
+                                <button className={styles.order_button}>Order Now</button>
+                            </div>
+                    </div>
+                    </div> 
+                    </div>
             </div>
         </section>
         </>

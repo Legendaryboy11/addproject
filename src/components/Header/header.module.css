@@ -58,4 +58,11 @@ header{
     text-transform: capitalize;
     border: none;
 }
+.head_wrapper li a:focus {
+    vertical-align: middle;
+    color: #FFCA42;
+}
+.head_wrapper li a:hover{
+    color:#FFCA42;
+}
 
