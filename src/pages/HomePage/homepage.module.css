@@ -267,3 +267,72 @@
     letter-spacing: 0.38px;
 }
 
+@media screen and (max-width: 1366px) {
+    .mayne_section{
+        height: 130vh;
+    }
+    .mayne_img img{
+        width: 230px;
+        min-height: 200px;
+    }
+    .mayne_img{
+        margin-left: 160px;
+    }
+    .mayne_text_1 hr{
+        width: 20px;
+        height: 2.5px;
+    }
+    .mayne_text_1 p{
+        font-size: 20px;
+    }
+    .mayne_text h1{
+        font-size: 58px;
+    }
+    .mayne_text h4{
+        font-size: 19px;
+    }
+    .mayne_info_3 p{
+        font-size: 15px ;
+    }
+    .mayne_info h1{
+        font-size: 40px;
+    }
+    .mayne_info h2{
+        font-size: 22px;
+    }
+    .mayne_info_2 h3{
+        font-size: 15px;
+    }
+    .order_h1 h1{
+        font-size: 35px;
+    }
+    .order_h1 hr{
+        margin-left: 30vh;
+        height: 2px;
+    }
+    .order img{
+        width: 225px;
+        height: 322px;
+    }
+    .order_info_1 h1{
+        font-size: 24px;    
+    }
+    .order_info_1 p{
+        font-size: 18px;
+    }
+    .order_info_2 p{
+        font-size: 16px;
+    }
+    .order_info_0 h1{
+        font-size: 35px;
+    }
+    .order_info_0 h2{
+        font-size: 22px;
+    }
+    .order{
+        margin-right: 47px;
+    }
+    .section_order{
+        height: 95vh;
+    }
+}

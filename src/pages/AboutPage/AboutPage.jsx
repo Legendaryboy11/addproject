@@ -28,7 +28,7 @@ const AboutPage = () => {
                                     <p>Billion Copies</p>
                                 </div>
                                 <div className={style.line}></div>
-                                <div className={style.info_4}>
+                                <div className={style.info_3}>
                                     <img src="./images/2x.png" alt="" />
                                     <p>(Lady is  Order  of the British Empire)<br/> Awards </p>
                                 </div>

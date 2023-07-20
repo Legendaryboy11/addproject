@@ -28,8 +28,6 @@ header{
     gap:50px;
     list-style: none;
     display: flex;
-}
-.head_wrapper{
     margin-left: 53vh;
     margin-top: 30px;
 }
@@ -66,3 +64,8 @@ header{
     color:#FFCA42;
 }
 
+@media screen and (max-width:1366px){
+    .head_wrapper{
+       margin-left: 34vh; 
+    }
+}
