@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer{
+    height: 486px;
+    flex-shrink: 0;
+    background: #1B3764;
+}
+.footer_container{
+    display: flex;
+}
+.footer_div{
+    padding-top: 10vh ;
+    padding-left: 8vh;
+}
+.footer_div2{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+.footer_wrapper{
+    display: flex;
+}
+.footer_wrapper{
+    display: flex;
+    margin: 0 auto;
+    padding-top: 10vh ;
+    gap: 20vh;
+}
+.div_01{
+    display: flex;
+    gap: 5px;
+    margin-top: 20px;
+}
+.div_01 p{
+    color: #B4C7E7;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30.6px; /* 170% */
+    letter-spacing: 0.18px; 
+}
+.div_01 h1{
+    margin-top: 5px;
+    color: #FFCA42;
+    font-size: 13px;
+}
+.footer_nav_1 h2{
+    color: #FFF;
+    font-family: Cardo;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33.6px; /* 140% */
+    letter-spacing: 0.384px;
+}
+.f_1{
+    display: flex;
+    gap: 50px;
+    margin-top: 40px;
+}
+.f_1 h3{
+    color: #FFF;
+    font-family: Cardo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
+    letter-spacing: 0.36px;
+}
+.f_1 p{
+    color: #B4C7E7;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; 
+}
+.footer_1{
+    background: #1B3764;
+    height: 55px;
+    flex-shrink: 0;
+}
+.footer__h1{
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+}
+.footer__h1 h1{
+    color: #B4C7E7;
+    text-align: center;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.5px; /* 150% */
+    letter-spacing: 0.17px;
+}
+.footer__h1 h2{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.5px; /* 150% */
+    letter-spacing: 0.17px;
+}
+.div_01 p:focus{
+    vertical-align: middle;
+    color: #FFCA42;
+}
+.div_01 p:hover{
+    color:#FFCA42;
+}
+.footer_div_1 a{
+    text-decoration: none;
+}

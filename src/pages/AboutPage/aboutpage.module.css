@@ -12,13 +12,13 @@
 .kristina_img img{
     margin-top: 90px;
     width: 425px;
-    height: 580px;
+    height: 585px;
     flex-shrink: 0;
     border-radius: 20px;
     box-shadow: 0px 0px 200px 10px  #F5F8FC;
 }
 .info_1{
-    margin-top: 140px ;
+    margin-top: 90px ;
 }
 .info_1 h1{
     color: #fff;
@@ -129,12 +129,198 @@
     justify-content: start;
 }
 .reid_img img{
-    margin-top: 90px;
+    margin-top: 125px;
     width: 425px;
-    height: 580px;
+    height: 585px;
     flex-shrink: 0;
     border-radius: 20px;
-    box-shadow: 0px 0px 300px 150px  #1B3764;
+    box-shadow: 0px 0px 100px 50px  #1B3764;
+}
+.ssylka{
+    display: flex;
+    background: #e8e9ec ;
+    width: 69vh;
+    height: 15vh;
+    margin-top: 23px;
+}
+.ssylka_0{
+    display: flex;
+    background: #1B3764 ;
+    width: 69vh;
+    height: 15vh;
+    margin-top: 23px;
+}
+.ssylka img,
+.ssylka_0 img{
+    width: 130px;
+    height: 120px;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+.ssylka_info,
+.ssylka_info_0{
+    margin-top: 21px;
+    margin-left: 30px;
+}
+
+.ssylka_info h1{
+    color: #1B3764;
+    font-family: Cardo;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26.4px; 
+}
+.ssylka_info_0 h1{
+    color: #FFCA42;
+    font-family: Cardo;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26.4px; 
+}
+.ssylka_info p{
+    margin-top: 10px;
+    color: #242628;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.5px;
+}
+.ssylka_info_0 p{
+    margin-top: 10px; 
+    color: #B4C7E7;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.5px;
+}
+.about_section_2{
+    background: #fff;
+    height: 90vh;
+}
+.about_info_1 h1{
+    color: #1B3764;
+    font-family: Cardo;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50.4px; /* 120% */
+    text-transform: capitalize;
+}
+.about_info_1 hr{
+    width: 50px;
+    height: 3px;
+    flex-shrink: 0;
+    background: #FFCA42;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.about_container_1{
+    padding-left: 23vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+.about_info_1 p{
+    color: #969AA0;
+    font-family: Inter;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34.2px; 
+}
+.about_order h1{
+    color: #1B3764;
+    font-family: Cardo;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26.4px;
+}
+.about_order{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.about_order img{
+    width: 120px;
+    height: 20px;
+    margin-top: 3px;
+}
+.about_info_1 h3{
+    color: #1B3764;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.5px;
+}
+.about_info_1{
+    padding-top: 15vh;
+}
+.about_wrapper_1{
+    display: flex;
+}
+.card{
+    margin-left: 160px;
+}
+.card_1{
+    width: 381px;
+    height: 292px;
+    margin-top: 20px;
+    flex-shrink: 0;
+    background: #1B3764;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.11);
+    padding-left: 30px;
+}
+.user_1{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.user_01{
+    padding-left: 15px;
+}
+.user_01 h1{
+    color: #FFF;
+    font-family: Cardo;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px;
+}
+.user_01 img{
+    margin-top: 10px;
+    width: 76px;
+    height: 13px;
+}
+.card_1 h3{
+    color: #FFF;
+    font-family: Cardo;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px; 
+}
+.card_1 p{
+    margin-top: 15px;
+    color: #B4C7E7;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px;
+}
+.about_wrapper_1{
+    gap: 20px;
+}
+.card_2{
+    margin-top: 17vh;
 }
 
 @media screen and (max-width: 1366px){
