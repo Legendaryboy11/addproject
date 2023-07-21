@@ -30,7 +30,7 @@ const Header = () => {
                             <Link to="/contact">Contact Us</Link>
                         </li>
                         <li>
-                            <img src="./images/Frame_3.png" alt="" />
+                            <Link to="/shop"><img src="./images/Frame_3.png" alt="" /></Link>
                         </li>
                     </div>
                     <button>Order Today</button>
