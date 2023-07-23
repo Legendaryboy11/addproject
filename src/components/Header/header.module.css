@@ -48,13 +48,26 @@ header{
     flex-shrink: 0;
     color: #1B3764;
     font-family: Cardo;
-    font-size: 19px;
+    font-size: 26px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 28.5px; /* 150% */
     letter-spacing: 0.57px;
     text-transform: capitalize;
     border: none;
+    cursor: pointer;
+}
+.vector_2 img:hover,
+.vector_wrapper button:hover{
+    animation: anime .3s linear infinite;
+}
+@keyframes anime{
+    0% {
+        transform: translate(2px,2px);
+    }
+    100%{
+        transform: translate(2px,2px);
+    }
 }
 .head_wrapper li a:focus {
     vertical-align: middle;

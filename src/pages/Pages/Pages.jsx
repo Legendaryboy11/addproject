@@ -9,6 +9,7 @@ const Pages = () => {
                     <div className={style.bk_1}>
                         <h1>What Will You Learn? <br /> <hr /></h1>
                     </div>
+                    <div className={style.page_end}>
                     <div className={style.bk_2}>
                         <div className={style.tk}>
                             <div className={style.tk_0}>
@@ -31,6 +32,12 @@ const Pages = () => {
                             </div>
                             </div>
                     </div>
+                    <div className={style.fone}>
+                        <div className={style.fone_img}> 
+                            <img src="./images/polza_ch.jpg" alt="" />
+                        </div>
+                    </div>
+                    </div>                    
                 </div>
             </div>
         </section>

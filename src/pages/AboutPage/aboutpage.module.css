@@ -20,6 +20,10 @@
 .info_1{
     margin-top: 90px ;
 }
+.ssylka_0,
+.ssylka{
+    border-radius: 5px;
+}
 .info_1 h1{
     color: #fff;
     font-family: Cardo;
@@ -138,14 +142,17 @@
 }
 .ssylka{
     display: flex;
-    background: #e8e9ec ;
     width: 69vh;
     height: 15vh;
     margin-top: 23px;
+    background: #F5F8FC;
+}
+.about_section_2{
+    background: #F5F8FC;
 }
 .ssylka_0{
     display: flex;
-    background: #1B3764 ;
+    background: #465876 ;
     width: 69vh;
     height: 15vh;
     margin-top: 23px;
@@ -196,10 +203,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: 28.5px;
-}
-.about_section_2{
-    background: #fff;
-    height: 90vh;
 }
 .about_info_1 h1{
     color: #1B3764;

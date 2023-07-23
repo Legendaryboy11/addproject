@@ -48,9 +48,54 @@ const AboutPage = () => {
                 </div>
             </div>
         </section>
+        <section className={style.about_section}>
+            <div className={style.about_container}>
+                <div className={style.about_wrapper}>
+                        <div className='alihan wow animate__animated animate__backInRight'>                      
+                        <div className={style.info}>
+                            <div className={style.info_1}>
+                                <h1>About The Author J. K. Rowling<br /> <hr /></h1>
+                            </div>
+                            <div className={style.info_2}>
+                                <p>Joanne Rowling CH OBE FRSL (born 31 July 1965), best known by her pen name J. K. Rowling, is a British author and philanthropist. She wrote Harry Potter, a seven-volume children's fantasy series published from 1997 to 2007. She writes Cormoran Strike, an ongoing crime fiction series, under the alias Robert Galbraith.</p>
+                            </div>
+                            <div className={style.kr_reviews}>
+                                <div className={style.info_3}>
+                                    <h1>135</h1>
+                                    <p>Novels Published</p>
+                                </div>
+                                <div className={style.line}></div>
+                                <div className={style.info_3}>
+                                    <h1>184</h1>
+                                    <p>Million Copies</p>
+                                </div>
+                                <div className={style.line}></div>
+                                <div className={style.info_3}>
+                                    <h1>06</h1>
+                                    <p> Awards </p>
+                                </div>
+                            </div>
+                            <div className={style.ssylka}>
+                                <img src="./images/qr_code.png" alt="" />
+                                <div className={style.ssylka_info}>
+                                    <h1>Joanne Rowling</h1>
+                                    <p>born : 1965 (age 57)<br /> https://en.wikipedia.org/wiki/J._K._Rowling</p>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div className={style.kristina_img}>
+                            <img src="./images/JKRowling.jpg" alt="" />
+                        </div>
+                </div>
+            </div>
+        </section>
         <section className={style.about_section_1}>
             <div className={style.about_container}>
                 <div className={style.about_wrapper}>
+                <div className={style.reid_img}>
+                            <img src="./images/Mayne_Reid.jpg" alt="" />
+                        </div>
                         <div className={style.info}>
                             <div className={style.info_01}>
                                 <h1>About The Author M.R <br /> <hr /></h1>
@@ -81,9 +126,6 @@ const AboutPage = () => {
                                     <p>1818-1883 <br /> https://en.wikipedia.org/wiki/Thomas_Mayne_Reid</p>
                                 </div>
                             </div>
-                        </div>
-                        <div className={style.reid_img}>
-                            <img src="./images/Mayne_Reid.jpg" alt="" />
                         </div>
                 </div>
             </div>

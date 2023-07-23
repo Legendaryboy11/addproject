@@ -2,11 +2,17 @@
     min-height: 110vh;
     background: #FFF;
     padding: 10vh;
-    background-image: url(/public/images/fone_1.jpg);
-    transform-style: preserve-3d;
-    overflow-y: scroll ;
-    overflow-x: hidden;
-    box-sizing: border-box;
+}
+.page_end{
+    display: flex;
+}
+.fone{
+    margin-top: 20vh;
+    width: 620px;
+    height: 420px;
+    margin-left: 150px;
+    flex-shrink: 0;
+    border: 10px solid #FFCA42;
 }
 .bk_1{
     display: flex;

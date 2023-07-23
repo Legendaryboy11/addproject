@@ -28,8 +28,8 @@ const HomePage = () => {
                     </div>    
 
                         <div className={styles.mayne_buttons}>
-                            <button className={styles.mayne_buttons_1}>Order Today</button>
-                            <button className={styles.mayne_buttons_2}>Read Free Demo <hr /></button>
+                            <a href="http://localhost:3000/shop"><button className={styles.mayne_buttons_1}> To buy a book</button></a>
+                            <button className={styles.mayne_buttons_2}> <a href="http://localhost:3000/demo">Read Free Demo<hr /></a></button>
                         </div>
                         <div className={styles.mayne_info}>
                             <div className={styles.mayne_info_1}><h1>&bull;</h1> <h2>Books:</h2></div>
@@ -59,7 +59,7 @@ const HomePage = () => {
                 <div className={styles.order_wrapper}>
                     <div className='wow animate__animated animate__flipInX'>
                     <div className={styles.order_h1}>
-                        <h1>The Authors' Book Collections <br /> <hr /> </h1>
+                        <h1>The Best Authors' Books<br /> <hr /> </h1>
                     </div>
                     </div>
                     <div className={styles.order}>
@@ -68,11 +68,11 @@ const HomePage = () => {
                             <img src="./images/komplect_img.jpg" alt="" />
                             <div className={styles.order_info}>
                             <div className={styles.order_info_1}>
-                                <h1>The Complete <br />Miss Marple Collection</h1>
+                                <h1>Harry Potter <br />450 Million Copies</h1>
                                 <p>$69.99 USD</p>
                             </div>
                             <div className={styles.order_info_2}>
-                                <p>Enjoy the complete collection featuring <br /> the Queen of Mystery's most  famous <br /> female sleuth, Miss Jane Marple.</p>
+                                <p>The novels chronicle the lives of a <br /> young wizard, Harry Potter, and his <br /> friends Hermione Granger and Ron <br /> Weasley, all of whom are students at <br /> Hogwarts School of Witchcraft and Wizardry. </p>
                             </div> 
                             <div className={styles.order_info_0}><h1>&bull;</h1> <h2>Books available</h2></div>
                             <button className={styles.order_button}>Order Now</button> 
@@ -83,11 +83,11 @@ const HomePage = () => {
                             <img src="./images/collection_2.jpg" alt="" />
                             <div className={styles.order_info}>
                                 <div className={styles.order_info_1}>
-                                    <h1>The Harlequin Tea <br /> Set and Other Stories</h1>
-                                    <p>$13.99 USD</p>
+                                    <h1>And Then There Were None.<br /> 100 Million Copies</h1>
+                                    <p>$33.99 USD</p>
                                 </div>
                                 <div className={styles.order_info_2}>
-                                    <p>Hercule Poirot is joined by the mysterious <br /> problem solver Harley Quin in the pages <br /> of The Harlequin Tea Set and Other Stories</p>
+                                    <p>And Then There Were None is a <br />mystery novel by the English writer Agatha <br /> Christie, described by her as the most <br /> difficult of her books to write. Successive <br /> American reprints and adaptations use that title.</p>
                                 </div>
                                 <div className={styles.order_info_0}><h1>&bull;</h1> <h2>Books available</h2></div>
                                 <button className={styles.order_button}>Order Now</button>
@@ -97,6 +97,67 @@ const HomePage = () => {
                     </div>
             </div>
         </section>
+        <section className={styles.section_2}>
+            <div className={styles.art_container}>
+                <div className={styles.art_wrapper}>
+                    <div className={styles.wr_h1}>
+                        <h1>Articles & Resources <hr /></h1>
+                    </div>
+                    <div className={styles.f_3}>
+                        <div className={styles.f}>
+                            <img src="./images/res_1.png" alt="" />
+                            <h2>Significant reading has more info number</h2>
+                            <p>Override the digital divide with <br /> additional clickthroughs from DevOps <br /> for real-time schemas.</p>
+                            <h4>October 6, 2023</h4>
+                        </div>
+                        <div className={styles.f}>
+                            <img src="./images/res_2.png" alt="" />
+                            <h2>Many variations of pass <br /> majority have suffered</h2>
+                            <p>Capitalize on low-hanging fruit to <br /> identify a ballpark value-added activity <br /> to beta test.</p>
+                            <h4>October 6, 2023</h4>
+                        </div>
+                        <div className={styles.f}>
+                            <img src="./images/res_3.png" alt="" />
+                            <h2>Words which don’t look even slightly believable</h2>
+                            <p>Podcasting operational change <br /> management inside of workflows <br /> to establish a framework.</p>
+                            <h4>October 6, 2023</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section className={styles.section_1}>
+            <div className={styles.container_1}>
+                <div className={styles.wrapper_1}>
+                    <div className={styles.wr_h1}>
+                        <h1>Trusted By The Best <hr /></h1>
+                    </div>
+                    <div className={styles.m_4}>
+                        <div className={styles.m_1}>
+                            <img src="./images/frame_01.png" alt="" />
+                            <h2>Amazen Corp.</h2>
+                            <p>They has been helping readers, music lovers, and videophiles find quality material.</p>
+                        </div>
+                        <div className={styles.m_1}>
+                            <img src="./images/frame_02.png" alt="" />
+                            <h2>Megan Books</h2>
+                            <p>We help physical bookstores manage their overstock to the book inventory.</p>
+                        </div>
+                        <div className={styles.m_1}>
+                            <img src="./images/frame_14.png" alt="" />
+                            <h2>Megank</h2>
+                            <p>Bookstore serving up the full spectrum of Black literature and wine black books.</p>
+                        </div>
+                        <div className={styles.m_1}>
+                            <img src="./images/frame_04.png" alt="" />
+                            <h2>Urban Store</h2>
+                            <p>We also carry the latest records, issues of all of your favorite comic books.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
         </>
     );
 };

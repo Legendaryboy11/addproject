@@ -6,7 +6,7 @@
 .footer{
     height: 486px;
     flex-shrink: 0;
-    background: #1B3764;
+    background: #102c57;
 }
 .footer_container{
     display: flex;
@@ -80,7 +80,7 @@
     line-height: 27px; 
 }
 .footer_1{
-    background: #1B3764;
+    background: #102c57;
     height: 55px;
     flex-shrink: 0;
 }

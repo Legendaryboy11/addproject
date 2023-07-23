@@ -27,13 +27,13 @@ const Header = () => {
                             <Link to="/pages">Pages</Link>
                         </li>
                         <li>
-                            <Link to="/contact">Contact Us</Link>
+                            <Link to="/demo">Demo</Link>
                         </li>
                         <li>
                             <Link to="/shop"><img src="./images/Frame_3.png" alt="" /></Link>
                         </li>
                     </div>
-                    <button>Order Today</button>
+                    <button>Register</button>
                 </div>
             </div>
         </header>
