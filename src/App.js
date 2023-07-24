@@ -7,6 +7,7 @@ import Footer from './components/Footer/Footer'
 import Pages from './pages/Pages/Pages';
 import ShopPage from './pages/OrderPage/ShopPage';
 import DemoPage from './pages/DemoPage/DemoPage';
+import Horseman from './pages/Horseman/Horseman';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Route path='/pages' element={<Pages/>}/>
         <Route path='/shop' element={<ShopPage/>}/>
         <Route path='/demo' element={<DemoPage/>}/>
+        <Route path='/horseman' element={<Horseman/>}/>
       </Routes>
       <Footer/>
     </div>

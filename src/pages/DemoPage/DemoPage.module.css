@@ -3,8 +3,12 @@
     background: #1B3764;
 }
 .books img{
-    width: 40vh;
-    height: 60vh;
+    width: 45vh;
+    height: 56vh;
+}
+.books{
+    box-shadow: 0px 0px 100px 5px #FFf;
+    padding: 40px;
 }
 .container{
     padding: 60px;
@@ -15,6 +19,7 @@
 }
 .book_info{
     display: flex;
+    flex-wrap: wrap;
 }
 .book_1 h2{
     font-family: Cardo;
@@ -29,6 +34,8 @@
 .rating{
     margin-bottom: 60px;
 }
+
+.book_info p,
 .info_p p{
     color: #B4C7E7;
     font-family: Inter;
@@ -36,8 +43,28 @@
     font-style: normal;
     font-weight: 400;
     line-height: 28.5px; 
-    margin-bottom: 26px;
+    margin-bottom: 27px;
 }
-.descr{
-    margin-right: ;
+
+.reading{
+    width: 30vh;
+    height: 40px;
+    font-size: 23px;
+    font-weight: 400;
+    background: #FFCA42;
+    border: none;
+    cursor: pointer;
+    font-family: Inter;
+    text-decoration: none;
+}
+.reading:hover {
+    animation: anime .3s linear infinite;
+}
+@keyframes anime{
+    0% {
+        transform: translate(-2px,-2px);
+    }
+    100%{
+        transform: translate(-2px,-2px);
+    }
 }

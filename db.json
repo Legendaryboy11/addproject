@@ -29,7 +29,7 @@
     },
     {
       "id": 4,
-      "title" : "The Death Shot (M.Reid)",
+      "title" : "The Death Shot (Captain M.Reid)",
       "img" : "./images/reid_2.jpg",
       "reating" : "star",
       "reating_1" : "star",
@@ -83,7 +83,7 @@
     },
     {
       "id": 10,
-      "title" : "N or M? (Agatha Cristi)",
+      "title" : "N or M? D&J (Agatha Cristi)",
       "img" : "./book/ak_6.jpg",
       "reating" : "star",
       "reating_1" : "star",
@@ -143,6 +143,42 @@
       "reating_1" : "star",
       "reating_2" : "star-outline",
       "price" : 23.99
+    },
+    {
+      "id": 17,
+      "title" : "The Ickabog (J.K Rowling)",
+      "img" : "./book/j.k_4.jpg",
+      "reating" : "star",
+      "reating_1" : "star",
+      "reating_2" : "star-outline",
+      "price" : 15.99
+    },
+    {
+      "id": 18,
+      "title" : "Hogwarts Library (Harry Potter)",
+      "img" : "./book/j.k_6.jpg",
+      "reating" : "star",
+      "reating_1" : "star-outline",
+      "reating_2" : "star-outline",
+      "price" : 10.12
+    },
+    {
+      "id": 16,
+      "title" : "Harry Potter and the Deathly Hallows",
+      "img" : "./book/j.k_5.jpg",
+      "reating" : "star",
+      "reating_1" : "star",
+      "reating_2" : "star",
+      "price" : 13.33
+    },
+    {
+      "id": 16,
+      "title" : "Fantastic Beasts: The Secrets of Dumbledore",
+      "img" : "./book/j.k_8.jpg",
+      "reating" : "star",
+      "reating_1" : "star",
+      "reating_2" : "star-outline",
+      "price" : 36.33
     }
   ]
 }

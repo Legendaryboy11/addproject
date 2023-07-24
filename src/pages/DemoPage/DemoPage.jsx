@@ -30,6 +30,12 @@ const DemoPage = () => {
                                     <li><ion-icon name="star"></ion-icon></li>
                                 </ul>
                                 </div>
+                                <div className={style.descr}>
+                                    <p>The Headless Horseman is a story about an Irish adventurer and hero in the War with Mexico. First Lt. Reid, writing as "Captain Reid," penned a series of popular novels and attributed his Headless Horseman idea to a south Texas folk tale.
+                                    The story takes place in Texas soon after the Mexican–American War (1846-1848).Calhoun plots to eliminate his rival when tragedy strikes: Louise's brother, the young Henry Poindexter, is murdered. All clues point to Maurice Gerald as the assassin. At the same time, a headless rider is spotted in the environs of the Poindexter plantation. 
+                                    </p>
+                                </div>
+                                <Link to="/horseman"><button className={style.reading}>start reading</button></Link>
                             </div>
                         </div>
                     </div>

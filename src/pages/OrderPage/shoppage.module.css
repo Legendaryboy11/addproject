@@ -67,7 +67,6 @@
     justify-content: baseline;
     align-items: center;
     margin-bottom: 40px;
-    margin-left: 20px;
     gap: 25px;
 }
 .row hr{
@@ -93,11 +92,11 @@
     height: 40px;
     font-size: 20px;
     padding-left: 15px;
-    background: #1B3764;
-    box-shadow: 0px 0px 3px 2px #fff;
+    background: #fcfcfd;
+    box-shadow: 0px 0px 5px 4px #3c3c3c;
     font-weight: 300;
     font-family: 'Victor Mono', monospace;
-    color: #fff;
+    color: black;
     border: none;
 }
 .search{
@@ -105,8 +104,7 @@
     height: 40px;
     font-size: 30px;
     background:#fff ;
-    box-shadow: 0px 0px 5px 4px #b60606;
-    border: #b60606;
+    box-shadow: 0px 0px 5px 2px #f6f5f5;
     border: none;
     cursor: pointer;
 }
