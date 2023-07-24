@@ -20,6 +20,17 @@
     display: flex;
     gap: 10px;
 }
+.footer_div2 img:hover{
+    animation: anime .3s linear infinite;
+}
+@keyframes anime{
+    0% {
+        transform: translate(5px,5px);
+    }
+    100%{
+        transform: translate(5px,5px);
+    }
+}
 .footer_wrapper{
     display: flex;
 }
