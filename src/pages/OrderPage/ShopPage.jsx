@@ -6,6 +6,11 @@ const ShopPage = () => {
         <section className={style.container}>
             <div className=' wow animate__animated animate__backInUp'>
             <div className={style.row}>
+                     <div className={style.search_div}>
+                        <input type="text" placeholder='Book Search...'/>
+                        <button className={style.search}><ion-icon name="search-outline"></ion-icon></button>
+                    </div>
+                <div className={style.books}>
                 <div className={style.col_md_4}>
                     <div className={style.product}>
                         <div className={style.image}>
@@ -18,7 +23,7 @@ const ShopPage = () => {
                                 <li><ion-icon name="star"></ion-icon></li>
                                 <li><ion-icon name="star"></ion-icon></li>
                                 <li><ion-icon name="star"></ion-icon></li>
-                                <li><ion-icon name="star-half"></ion-icon></li>
+                                <li><ion-icon name="star-outline"></ion-icon></li>
                             </ul>
                             <div className={style.info_price}>
                                 <span className={style.price}>13.99<small>$</small></span>
@@ -36,8 +41,8 @@ const ShopPage = () => {
                                 <li><ion-icon name="star"></ion-icon></li>
                                 <li><ion-icon name="star"></ion-icon></li>
                                 <li><ion-icon name="star"></ion-icon></li>
-                                <li><ion-icon name="star"></ion-icon></li>
-                                <li><ion-icon name="star-half"></ion-icon></li>
+                                <li><ion-icon name="star-outline"></ion-icon></li>
+                                <li><ion-icon name="star-outline"></ion-icon></li>
                             </ul>
                             <div className={style.info_price}>
                                 <span className={style.price}>23.99<small>$</small></span>
@@ -55,8 +60,8 @@ const ShopPage = () => {
                                 <li><ion-icon name="star"></ion-icon></li>
                                 <li><ion-icon name="star"></ion-icon></li>
                                 <li><ion-icon name="star"></ion-icon></li>
-                                <li><ion-icon name="star"></ion-icon></li>
-                                <li><ion-icon name="star-half"></ion-icon></li>
+                                <li><ion-icon name="star-outline"></ion-icon></li>
+                                <li><ion-icon name="star-outline"></ion-icon></li>
                             </ul>
                             <div className={style.info_price}>
                                 <span className={style.price}>39.99<small>$</small></span>
@@ -75,7 +80,7 @@ const ShopPage = () => {
                                 <li><ion-icon name="star"></ion-icon></li>
                                 <li><ion-icon name="star"></ion-icon></li>
                                 <li><ion-icon name="star"></ion-icon></li>
-                                <li><ion-icon name="star-half"></ion-icon></li>
+                                <li><ion-icon name="star-outline"></ion-icon></li>
                             </ul>
                             <div className={style.info_price}>
                                 <span className={style.price}>28.99<small>$</small></span>
@@ -96,7 +101,7 @@ const ShopPage = () => {
                                 <li><ion-icon name="star"></ion-icon></li>
                                 <li><ion-icon name="star"></ion-icon></li>
                                 <li><ion-icon name="star"></ion-icon></li>
-                                <li><ion-icon name="star-half"></ion-icon></li>
+                                <li><ion-icon name="star-outline"></ion-icon></li>
                             </ul>
                             <div className={style.info_price}>
                                 <span className={style.price}>23.44<small>$</small></span>
@@ -114,8 +119,8 @@ const ShopPage = () => {
                                 <li><ion-icon name="star"></ion-icon></li>
                                 <li><ion-icon name="star"></ion-icon></li>
                                 <li><ion-icon name="star"></ion-icon></li>
-                                <li><ion-icon name="star"></ion-icon></li>
-                                <li><ion-icon name="star-half"></ion-icon></li>
+                                <li><ion-icon name="star-outline"></ion-icon></li>
+                                <li><ion-icon name="star-outline"></ion-icon></li>
                             </ul>
                             <div className={style.info_price}>
                                 <span className={style.price}>21.99<small>$</small></span>
@@ -134,7 +139,7 @@ const ShopPage = () => {
                                 <li><ion-icon name="star"></ion-icon></li>
                                 <li><ion-icon name="star"></ion-icon></li>
                                 <li><ion-icon name="star"></ion-icon></li>
-                                <li><ion-icon name="star-half"></ion-icon></li>
+                                <li><ion-icon name="star-outline"></ion-icon></li>
                             </ul>
                             <div className={style.info_price}>
                                 <span className={style.price}>32.88<small>$</small></span>
@@ -174,7 +179,7 @@ const ShopPage = () => {
                                 <li><ion-icon name="star"></ion-icon></li>
                                 <li><ion-icon name="star"></ion-icon></li>
                                 <li><ion-icon name="star"></ion-icon></li>
-                                <li><ion-icon name="star-half"></ion-icon></li>
+                                <li><ion-icon name="star"></ion-icon></li>
                             </ul>
                             <div className={style.info_price}>
                                 <span className={style.price}>16.18<small>$</small></span>
@@ -192,8 +197,8 @@ const ShopPage = () => {
                                 <li><ion-icon name="star"></ion-icon></li>
                                 <li><ion-icon name="star"></ion-icon></li>
                                 <li><ion-icon name="star"></ion-icon></li>
-                                <li><ion-icon name="star"></ion-icon></li>
-                                <li><ion-icon name="star-half"></ion-icon></li>
+                                <li><ion-icon name="star-outline"></ion-icon></li>
+                                <li><ion-icon name="star-outline"></ion-icon></li>
                             </ul>
                             <div className={style.info_price}>
                                 <span className={style.price}>4.99<small>$</small></span>
@@ -211,8 +216,8 @@ const ShopPage = () => {
                                 <li><ion-icon name="star"></ion-icon></li>
                                 <li><ion-icon name="star"></ion-icon></li>
                                 <li><ion-icon name="star"></ion-icon></li>
-                                <li><ion-icon name="star"></ion-icon></li>
-                                <li><ion-icon name="star-half"></ion-icon></li>
+                                <li><ion-icon name="star-outline"></ion-icon></li>
+                                <li><ion-icon name="star-outline"></ion-icon></li>
                             </ul>
                             <div className={style.info_price}>
                                 <span className={style.price}>22.99<small>$</small></span>
@@ -318,7 +323,8 @@ const ShopPage = () => {
                             </div>
                         </div>
                     </div>
-                    </div>                    
+                    </div>   
+                    </div>                 
             </div>
             </div>
         </section>

@@ -5,7 +5,7 @@
 }
 .container{
     align-items: center;
-    height: 250vh;
+    height: 260vh;
     padding: 50px;
     background: #1B3764;
 }
@@ -25,6 +25,7 @@
 .info h3{
     font-size: 20px;
     font-family: Inter;
+    font-weight: 300;
     color: #fff;
 }
 .info_price{
@@ -47,6 +48,7 @@
     align-items: center;
     justify-content: center;
     background: green;
+    cursor: pointer;
 }
 .info{
     height: 20vh;
@@ -56,7 +58,46 @@
     gap: 100px;
 }
 .row{
-    box-shadow: 0px 0px 100px 5px #FFCA42;
-    padding: 60px;
+    box-shadow: 0px 0px 100px 5px #FFf;
+    padding: 40px;
     border-radius: 10px;
+}
+.search_div{
+    display: flex;
+    width: 100vh;
+    height: 10vh;
+    padding-left: 10vh;
+    gap: 20px;
+}
+.add_to_cart:hover{
+    animation: anime .3s linear infinite;
+}
+@keyframes anime{
+    0% {
+        transform: translate(5px,5px);
+    }
+    100%{
+        transform: translate(5px,5px);
+    }
+}
+.search_div input{
+    width: 75vh;
+    height: 40px;
+    font-size: 20px;
+    padding-left: 15px;
+    background: #1B3764;
+    box-shadow: 0px 0px 3px 2px #fff;
+    font-weight: 300;
+    font-family: 'Victor Mono', monospace;
+    color: #fff;
+    border: none;
+}
+.search{
+    width: 48px;
+    height: 40px;
+    font-size: 30px;
+    background:#FFCA42 ;
+    box-shadow: 0px 0px 3px 2px #fff;
+    border: none;
+    cursor: pointer;
 }
