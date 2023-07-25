@@ -3,10 +3,11 @@ import style from "./shoppage.module.css"
 import axios from 'axios';
 
 const ShopPage = () => {
-
     const [search, setSearch] = useState('')
     const [books, setBooks] = useState([])
-    console.log(search);
+    const [basket, setBasket] = useState([])
+    const [book, setBook] = useState([])
+    console.log(basket);
 
     useEffect(() => {
         axios.get('http://localhost:3005/books')
@@ -16,6 +17,22 @@ const ShopPage = () => {
     const filterdBooks = books.filter(book => {
         return book.title.toLowerCase().includes(search.toLowerCase().trim())
     })
+    const addToBasket = (id) => {
+
+        console.log(id)
+
+        axios.get(`http://localhost:3005/books/${id}`)
+            .then(res => setBook(res.data))
+
+        const chosen = {
+            
+            title: book.title,
+            price: book.price
+        }    
+        axios.post('http://localhost:3005/basket', chosen )
+            .then(res => console.log(res.data))
+    }
+    
 
 
 
@@ -52,7 +69,7 @@ const ShopPage = () => {
                                         </ul>
                                         <div className={style.info_price}>
                                             <span className={style.price}>{book.price}<small>$</small></span>
-                                            <button className={style.add_to_cart}><ion-icon name="cart-outline"></ion-icon></button>
+                                            <button onClick={() => addToBasket(book.id)} className={style.add_to_cart}><ion-icon name="cart"></ion-icon></button>
                                         </div>
                                     </div>
                                 </div>

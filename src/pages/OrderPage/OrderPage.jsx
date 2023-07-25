@@ -1,6 +1,7 @@
 import React from 'react';
+import style from './orderpage.module.css'
 
-const horseman = () => {
+const OrderPage = () => {
     return (
         <div>
             
@@ -8,4 +9,4 @@ const horseman = () => {
     );
 };
 
-export default horseman;
+export default OrderPage;

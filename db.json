@@ -2,183 +2,200 @@
   "books": [
     {
       "id": 1,
-      "title" : "Murder on the orient express (Agatha Cristi)",
-      "img" : "./images/kristi.jpg",
-      "reating" : "star",
-      "reating_1" : "star",
-      "reating_2" : "star-outline",
-      "price" : 13.99
+      "title": "Murder on the orient express (Agatha Cristi)",
+      "img": "./images/kristi.jpg",
+      "reating": "star",
+      "reating_1": "star",
+      "reating_2": "star-outline",
+      "price": 13.99
     },
     {
       "id": 2,
-      "title" : "The Headless Horseman (M.Reid)",
-      "img" : "./images/reid.jpg",
-      "reating" : "star",
-      "reating_1" : "star",
-      "reating_2" : "star-half",
-      "price" : 13.99
+      "title": "The Headless Horseman (M.Reid)",
+      "img": "./images/reid.jpg",
+      "reating": "star",
+      "reating_1": "star",
+      "reating_2": "star-half",
+      "price": 13.99
     },
     {
       "id": 3,
-      "title" : "Dead Man's Folly (Agatha Cristi)",
-      "img" : "./images/kristi_2.jpg",
-      "reating" : "star",
-      "reating_1" : "star-half",
-      "reating_2" : "star-outline",
-      "price" : 39.99
+      "title": "Dead Man's Folly (Agatha Cristi)",
+      "img": "./images/kristi_2.jpg",
+      "reating": "star",
+      "reating_1": "star-half",
+      "reating_2": "star-outline",
+      "price": 39.99
     },
     {
       "id": 4,
-      "title" : "The Death Shot (Captain M.Reid)",
-      "img" : "./images/reid_2.jpg",
-      "reating" : "star",
-      "reating_1" : "star",
-      "reating_2" : "star-outline",
-      "price" : 28.99
+      "title": "The Death Shot (Captain M.Reid)",
+      "img": "./images/reid_2.jpg",
+      "reating": "star",
+      "reating_1": "star",
+      "reating_2": "star-outline",
+      "price": 28.99
     },
     {
       "id": 5,
-      "title" : "SINISTER SPRING (Agatha Cristi)",
-      "img" : "././book/ak_3.jpg",
-      "reating" : "star",
-      "reating_1" : "star",
-      "reating_2" : "star-outline",
-      "price" : 23.44
+      "title": "SINISTER SPRING (Agatha Cristi)",
+      "img": "././book/ak_3.jpg",
+      "reating": "star",
+      "reating_1": "star",
+      "reating_2": "star-outline",
+      "price": 23.44
     },
     {
       "id": 6,
-      "title" : "Osceola the Seminole (M.Reid)",
-      "img" : "./book/mr_3.jpg",
-      "reating" : "star",
-      "reating_1" : "star-outline",
-      "reating_2" : "star-outline",
-      "price" : 21.99
+      "title": "Osceola the Seminole (M.Reid)",
+      "img": "./book/mr_3.jpg",
+      "reating": "star",
+      "reating_1": "star-outline",
+      "reating_2": "star-outline",
+      "price": 21.99
     },
     {
       "id": 7,
-      "title" : "Dumb Witness (Agatha Cristi)",
-      "img" : "./book/ak_5.jpg",
-      "reating" : "star",
-      "reating_1" : "star",
-      "reating_2" : "star-half",
-      "price" : 13.44
+      "title": "Dumb Witness (Agatha Cristi)",
+      "img": "./book/ak_5.jpg",
+      "reating": "star",
+      "reating_1": "star",
+      "reating_2": "star-half",
+      "price": 13.44
     },
     {
       "id": 8,
-      "title" : "Sad Cypress (Agatha Cristi)",
-      "img" : "./book/ak_4.jpg",
-      "reating" : "star",
-      "reating_1" : "star-outline",
-      "reating_2" : "star-outline",
-      "price" : 32.88
+      "title": "Sad Cypress (Agatha Cristi)",
+      "img": "./book/ak_4.jpg",
+      "reating": "star",
+      "reating_1": "star-outline",
+      "reating_2": "star-outline",
+      "price": 32.88
     },
     {
       "id": 9,
-      "title" : "The Wild Huntress (M.Reid)",
-      "img" : "./book/mr_4.jpg",
-      "reating" : "star",
-      "reating_1" : "star-half",
-      "reating_2" : "star-outline",
-      "price" : 16.18
+      "title": "The Wild Huntress (M.Reid)",
+      "img": "./book/mr_4.jpg",
+      "reating": "star",
+      "reating_1": "star-half",
+      "reating_2": "star-outline",
+      "price": 16.18
     },
     {
       "id": 10,
-      "title" : "N or M? D&J (Agatha Cristi)",
-      "img" : "./book/ak_6.jpg",
-      "reating" : "star",
-      "reating_1" : "star",
-      "reating_2" : "star-outline",
-      "price" : 4.99
+      "title": "N or M? D&J (Agatha Cristi)",
+      "img": "./book/ak_6.jpg",
+      "reating": "star",
+      "reating_1": "star",
+      "reating_2": "star-outline",
+      "price": 4.99
     },
     {
       "id": 11,
-      "title" : "The Tiger Hunter (Mr.Reid)",
-      "img" : "./book/mr_5.webp",
-      "reating" : "star",
-      "reating_1" : "star-outline",
-      "reating_2" : "star-outline",
-      "price" : 22.99
+      "title": "The Tiger Hunter (Mr.Reid)",
+      "img": "./book/mr_5.webp",
+      "reating": "star",
+      "reating_1": "star-outline",
+      "reating_2": "star-outline",
+      "price": 22.99
     },
     {
       "id": 12,
-      "title" : "4.50 From Paddington.(Agatha Cristi)",
-      "img" : "./book/ak_6.webp",
-      "reating" : "star",
-      "reating_1" : "star",
-      "reating_2" : "star-half",
-      "price" : 11.99
+      "title": "4.50 From Paddington.(Agatha Cristi)",
+      "img": "./book/ak_6.webp",
+      "reating": "star",
+      "reating_1": "star",
+      "reating_2": "star-half",
+      "price": 11.99
     },
     {
       "id": 13,
-      "title" : "Hogwarts Library (J. K. Rowling)",
-      "img" : "./book/j.k_1.jpg",
-      "reating" : "star",
-      "reating_1" : "star",
-      "reating_2" : "star",
-      "price" : 59.99
+      "title": "Hogwarts Library (J. K. Rowling)",
+      "img": "./book/j.k_1.jpg",
+      "reating": "star",
+      "reating_1": "star",
+      "reating_2": "star",
+      "price": 59.99
     },
     {
       "id": 14,
-      "title" : "Harry Potter (J. K. Rowling)",
-      "img" : "./images/komplect_img.jpg",
-      "reating" : "star",
-      "reating_1" : "star",
-      "reating_2" : "star",
-      "price" : 39.99
+      "title": "Harry Potter (J. K. Rowling)",
+      "img": "./images/komplect_img.jpg",
+      "reating": "star",
+      "reating_1": "star",
+      "reating_2": "star",
+      "price": 39.99
     },
     {
       "id": 15,
-      "title" : "The Christmas Pig (J. K. Rowling)",
-      "img" : "./book/j.k_2.jpg",
-      "reating" : "star",
-      "reating_1" : "star",
-      "reating_2" : "star-half",
-      "price" : 30.33
+      "title": "The Christmas Pig (J. K. Rowling)",
+      "img": "./book/j.k_2.jpg",
+      "reating": "star",
+      "reating_1": "star",
+      "reating_2": "star-half",
+      "price": 30.33
     },
     {
       "id": 16,
-      "title" : "The Harry Potter Wizarding Almanac",
-      "img" : "./book/j.k_3.jpg",
-      "reating" : "star",
-      "reating_1" : "star",
-      "reating_2" : "star-outline",
-      "price" : 23.99
+      "title": "The Harry Potter Wizarding Almanac",
+      "img": "./book/j.k_3.jpg",
+      "reating": "star",
+      "reating_1": "star",
+      "reating_2": "star-outline",
+      "price": 23.99
     },
     {
       "id": 17,
-      "title" : "The Ickabog (J.K Rowling)",
-      "img" : "./book/j.k_4.jpg",
-      "reating" : "star",
-      "reating_1" : "star",
-      "reating_2" : "star-outline",
-      "price" : 15.99
+      "title": "The Ickabog (J.K Rowling)",
+      "img": "./book/j.k_4.jpg",
+      "reating": "star",
+      "reating_1": "star",
+      "reating_2": "star-outline",
+      "price": 15.99
     },
     {
       "id": 18,
-      "title" : "Hogwarts Library (Harry Potter)",
-      "img" : "./book/j.k_6.jpg",
-      "reating" : "star",
-      "reating_1" : "star-outline",
-      "reating_2" : "star-outline",
-      "price" : 10.12
+      "title": "Hogwarts Library (Harry Potter)",
+      "img": "./book/j.k_6.jpg",
+      "reating": "star",
+      "reating_1": "star-outline",
+      "reating_2": "star-outline",
+      "price": 10.12
     },
     {
       "id": 16,
-      "title" : "Harry Potter and the Deathly Hallows",
-      "img" : "./book/j.k_5.jpg",
-      "reating" : "star",
-      "reating_1" : "star",
-      "reating_2" : "star",
-      "price" : 13.33
+      "title": "Harry Potter and the Deathly Hallows",
+      "img": "./book/j.k_5.jpg",
+      "reating": "star",
+      "reating_1": "star",
+      "reating_2": "star",
+      "price": 13.33
     },
     {
-      "id": 16,
-      "title" : "Fantastic Beasts: The Secrets of Dumbledore",
-      "img" : "./book/j.k_8.jpg",
-      "reating" : "star",
-      "reating_1" : "star",
-      "reating_2" : "star-outline",
-      "price" : 36.33
+      "id": 17,
+      "title": "Fantastic Beasts: The Secrets of Dumbledore",
+      "img": "./book/j.k_8.jpg",
+      "reating": "star",
+      "reating_1": "star",
+      "reating_2": "star-outline",
+      "price": 36.33
+    }
+  ],
+  "basket": [
+    {
+      "title": "Dead Man's Folly (Agatha Cristi)",
+      "price": 39.99,
+      "id": 1
+    },
+    {
+      "title": "Murder on the orient express (Agatha Cristi)",
+      "price": 13.99,
+      "id": 2
+    },
+    {
+      "title": "The Headless Horseman (M.Reid)",
+      "price": 13.99,
+      "id": 3
     }
   ]
 }

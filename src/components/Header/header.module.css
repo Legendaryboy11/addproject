@@ -19,17 +19,18 @@
     gap: 6px;
 }
 
+
 header{
     background: #1B3764;
     height: 125px;
 }
-
 .head_wrapper {
+    width: 100% ;
     gap:50px;
     list-style: none;
     display: flex;
-    margin-left: 53vh;
-    margin-top: 30px;
+    justify-content: end;
+    padding-top: 30px;
 }
 
 .head_wrapper li a {
@@ -39,9 +40,16 @@ header{
     font-family: 'Inter';
     text-decoration: none;
 }
-
+.icon{
+    display: flex;
+    gap: 45px;
+}
+.icon li a{
+    font-size: 25px;
+}
 .vector_wrapper button{
     margin-top: 30px;
+    margin-right: 80px;
     background: #FFCA42;
     width: 180px;
     height: 66px;
@@ -56,6 +64,7 @@ header{
     text-transform: capitalize;
     border: none;
     cursor: pointer;
+    margin-left: 20px;
 }
 .vector_2 img:hover,
 .vector_wrapper button:hover{
@@ -76,6 +85,10 @@ header{
 .head_wrapper li a:hover{
     color:#FFCA42;
 }
+
+
+
+
 
 @media screen and (max-width:1366px){
     .head_wrapper{

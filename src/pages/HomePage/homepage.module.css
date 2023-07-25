@@ -1,5 +1,5 @@
 .container {
-    margin: 0 0 60px 60px;
+    margin: 0 0 60vh 60px;
 }
 .mayne_text h1{
     color: #FFF;
@@ -74,6 +74,23 @@
         transform: translate(5px,5px);
     }
 }
+.mayne_reid_2:hover,
+.kristi_2:hover,
+.mayne_reid:hover{
+    animation: anime .3s linear infinite;
+}
+
+@keyframes anime{
+    0% {
+        transform: translate(5px,5px);
+    }
+    100%{
+        transform: translate(5px,5px);
+    }
+}
+.kristi:hover{
+    animation: anime .3s linear infinite;
+}
 
 .mayne_buttons{
     margin-top: 40px;
@@ -102,7 +119,7 @@
     display: flex;
 }
 .mayne_img{
-    margin-left: 230px;
+    margin-left: 32vh;
     margin-top: 60px;
 }
 .mayne_img img{

@@ -25,7 +25,7 @@ const Footer = () => {
                             <a href="http://localhost:3000/about"><div className={style.div_01}><h1>&bull;&bull;&bull;</h1><p>About</p></div></a>
                             <a href=""><div className={style.div_01}><h1>&bull;&bull;&bull;</h1><p>Articles</p></div></a>
                             <a href=""><div className={style.div_01}><h1>&bull;&bull;&bull;</h1><p>Our Store</p></div></a>
-                            <a href="http://localhost:3000/contact"><div className={style.div_01}><h1>&bull;&bull;&bull;</h1><p>Contact Us</p></div></a>
+                            <a href=""><div className={style.div_01}><h1>&bull;&bull;&bull;</h1><p>Contact Us</p></div></a>
                         </div>
                     </div>
                     <div className={style.footer_nav_1}>

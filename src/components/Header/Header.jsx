@@ -24,14 +24,16 @@ const Header = () => {
                             <Link to="/about">About</Link>
                         </li>
                         <li>
-                            <Link to="/pages">Pages</Link>
-                        </li>
-                        <li>
                             <Link to="/demo">Demo</Link>
                         </li>
+                        <div className={styles.icon}>
                         <li>
-                            <Link to="/shop"><img src="./images/Frame_3.png" alt="" /></Link>
+                            <Link to="/shop"><ion-icon name="cart-outline"></ion-icon></Link>
                         </li>
+                        <li>
+                            <Link to="/order"><ion-icon name="bag-check"></ion-icon></Link>
+                        </li>
+                        </div>
                     </div>
                     <button>Register</button>
                 </div>
